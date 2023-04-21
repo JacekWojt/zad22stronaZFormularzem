@@ -1,0 +1,70 @@
+.header {
+    background: #fbf084;
+    padding: 3px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    background: #d2d2d2;
+    padding: 3px;
+    text-align: center;
+}
+
+.company-container {
+    display: flex;
+}
+
+.company-bio {
+    max-width: 60%;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    padding: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ordering-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.coin-image {
+    display: block;
+    margin: auto;
+}
+
+.button-add {
+    max-width: 150px;
+    margin: auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.submit-btn {
+    max-width: 250px;
+    margin: auto;
+    padding: 20px;
+}

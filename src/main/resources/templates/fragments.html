@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragments</title>
+</head>
+<body>
+
+<div class="header" th:fragment="header">
+    <h1>Skarbiec.pl</h1>
+    <p>Internetowy skelp złotych monet</p>
+</div>
+
+<div class="footer" th:fragment="footer">
+    <h4>Obsługa Klienta</h4>
+    <div class="footer-links">
+        <p><a href="url">Najczęściej zadawane pytania</a><br></p>
+        <p><a href="url">Sposób płatności</a><br></p>
+        <p><a href="url">Opcje dostarczenia</a><br></p>
+    </div>
+</div>
+
+<div class="navigation" th:fragment="navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/coin?name=Krugerrand">Krugerrand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/coin?name=Liść Klonowy">Liść Klonowy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/coin?name=Orzeł Amerykański">Orzeł
+                            Amerykański</a>
+                    </li>
+                    <li class="nav-item-contact">
+                        <a class="nav-link active" aria-current="page" href="/messageform">Kontakt</a>
+                    </li>
+                    <li class="nav-item-contact">
+                        <a class="nav-link active" aria-current="page" href="/">Koszyk</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+</body>
+</html>
